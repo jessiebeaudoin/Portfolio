@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -8,9 +7,8 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Header Styles */
 header {
-    background-color: #1a202c; /* Dark Blue */
+    background-color: #1a202c; 
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -26,7 +24,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    color: #b3d4fc; /* Light Blue Accent */
+    color: #b3d4fc; 
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -35,7 +33,6 @@ header nav ul li a:hover {
     color: white;
 }
 
-/* Footer Styles */
 footer {
     text-align: center;
     background-color: #1a202c;
@@ -44,10 +41,9 @@ footer {
     margin-top: 20px;
 }
 
-/* Hero Section */
 .hero {
     text-align: center;
-    background-color: #edf2f7; /* Light Grayish Blue */
+    background-color: #edf2f7; 
     padding: 40px 20px;
 }
 
@@ -56,7 +52,7 @@ footer {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border: 3px solid #1a202c; /* Dark Blue Border */
+    border: 3px solid #1a202c; 
     margin-bottom: 20px;
 }
 
@@ -72,7 +68,6 @@ footer {
     color: #333;
 }
 
-/* Overview and Details Section */
 section {
     max-width: 900px;
     margin: 30px auto;
@@ -119,7 +114,6 @@ section p {
     justify-content: center;
 }
 
-/* Contact Page Styles */
 .contact h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
@@ -133,7 +127,7 @@ section p {
 }
 
 .contact-info a {
-    color: #1a202c; /* Dark Blue */
+    color: #1a202c; 
     text-decoration: none;
 }
 
@@ -141,7 +135,6 @@ section p {
     text-decoration: underline;
 }
 
-/* Contact Links */
 .contact-links {
     display: flex;
     flex-wrap: wrap;
@@ -168,11 +161,10 @@ section p {
     color: #333;
 }
 
-/* Email Form */
 .email-form {
     margin-top: 30px;
     padding: 20px;
-    background-color: #edf2f7; /* Light Grayish Blue */
+    background-color: #edf2f7; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -200,7 +192,7 @@ section p {
 }
 
 .email-form button {
-    background-color: #1a202c; /* Dark Blue */
+    background-color: #1a202c; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -210,10 +202,9 @@ section p {
 }
 
 .email-form button:hover {
-    background-color: #b3d4fc; /* Light Blue Accent */
+    background-color: #b3d4fc; 
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     header nav ul {
         flex-direction: column;
